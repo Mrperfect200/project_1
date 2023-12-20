@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.last{
+    width: 100vw;
+    height: 50vh;
+    background-color: black;
+    
+}
+
+.content{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+   
+    text-align: center;
+    
+}
+
+
+
+
+.last-img  img {
+    width: 200px;
+    height: 100px;
+    margin-top: 4rem;
+    
+}
+
+
+.last-link i{
+    font-size: 40px;
+    color: rgb(218, 167, 73);
+    margin-top: 20px;
+    margin-left: 5px;
+    
+   
+    
+
+}
+
+.last-link i:hover{
+    color: orange;
+}
+
+.last-pr{
+    color: orange;
+    margin-top: 20px;
+
+}
+
+

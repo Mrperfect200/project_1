@@ -1,0 +1,210 @@
+.content-about{
+    width: 100%;
+    
+    font-size: 40px;
+    margin-top: 120px;
+    margin-left: 600px;
+    
+}
+
+.about-line{
+
+    width: 100px;
+    height: 300px;
+    margin-left: 70px;
+    color: orange;
+}
+
+.about-container{
+    width: 80%;
+    height: 450px;
+     margin-top: 30px;
+    overflow: auto;
+    margin-left:250px;
+    
+    
+}
+
+.about-item1{
+
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    float: left;
+    position: relative;
+    
+    
+    
+    
+}
+
+.about-icon1{
+
+    color: rgb(0, 110, 255);
+    margin-top: 30px;
+
+}
+
+.about-title1{
+    margin-top: 30px;
+    z-index: 6;
+
+}
+
+.about-item1:hover  h2{
+    color:white;
+}
+
+.about-p1{
+    margin-top: 30px;
+}
+
+.about-link1{
+    display: block;
+    margin-top: 30px;
+    color: rgb(0, 110, 255);
+    text-decoration: none;
+}
+
+.about-item2{
+
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+}
+
+.about-icon2{
+
+    color: rgb(0, 110, 255);
+    margin-top: 30px;
+
+}
+
+.about-title2{
+    margin-top: 30px;
+
+}
+
+.about-item2:hover  h2{
+    color:white;
+}
+
+.about-p2{
+    margin-top: 30px;
+}
+
+.about-link2{
+    display: block;
+    margin-top: 30px;
+    color: rgb(0, 110, 255);
+    text-decoration: none;
+}
+
+.about-item3{
+
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    float: left;
+    position: relative;
+    
+}
+
+.about-icon3{
+
+    color: rgb(0, 110, 255);
+    margin-top: 30px;
+
+}
+
+.about-title3{
+    margin-top: 30px;
+
+}
+
+.about-item3:hover  h2{
+    color:white;
+}
+
+
+.about-p3{
+    margin-top: 30px;
+}
+
+.about-link3{
+    display: block;
+    margin-top: 30px;
+    color: rgb(0, 110, 255);
+    text-decoration: none;
+}
+
+.about-item1::after{
+    content: "";
+    width: 0;
+    height: 0;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 1s;
+    border-radius: 15px;
+}
+
+.about-item1:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.about-item2::after{
+    content: "";
+    width: 0;
+    height: 0;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 1s;
+    border-radius: 15px;
+   
+}
+
+.about-item2:hover::after{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.about-item3::after{
+    content: "";
+    width: 0;
+    height: 0;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 1s;
+    border-radius: 15px;
+}
+
+.about-item3:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
